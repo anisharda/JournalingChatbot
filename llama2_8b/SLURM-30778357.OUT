@@ -1,0 +1,48 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+2025-03-30 03:20:55.148291: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1743304855.723698 2963731 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1743304855.899515 2963731 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1743304857.507499 2963731 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1743304857.507575 2963731 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1743304857.507582 2963731 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1743304857.507588 2963731 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-03-30 03:20:57.636244: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using the latest cached version of the module from /home/asharda_umass_edu/.cache/huggingface/modules/datasets_modules/datasets/empathetic_dialogues/09bbeed3882a67db98c73952fb3c1c9a85af83dc78f81454c2454382fd03f6cf (last modified on Sun Mar 30 00:16:52 2025) since it couldn't be found locally at empathetic_dialogues, or remotely on the Hugging Face Hub.
+STARTING the code
+step one completed, dataset loaded
+tokenize the model
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [01:24<02:48, 84.36s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [02:48<01:24, 84.09s/it]Loading checkpoint shards: 100%|██████████| 3/3 [03:40<00:00, 69.48s/it]Loading checkpoint shards: 100%|██████████| 3/3 [03:40<00:00, 73.45s/it]
+model loaded + tokenization = step 2 done
+prep model for fine tuning
+model prepped
+doing lora config
+get peft model about to run
+step 3 done
+start preprocessing step
+function created for step 4
+tokenize data sets and call preprocess function
+Map:   0%|          | 0/12030 [00:00<?, ? examples/s]Map:   8%|▊         | 1000/12030 [00:00<00:05, 1927.76 examples/s]Map:  17%|█▋        | 2000/12030 [00:00<00:04, 2121.35 examples/s]Map:  25%|██▍       | 3000/12030 [00:01<00:04, 2167.94 examples/s]Map:  33%|███▎      | 4000/12030 [00:01<00:03, 2227.38 examples/s]Map:  42%|████▏     | 5000/12030 [00:02<00:03, 2079.32 examples/s]Map:  50%|████▉     | 6000/12030 [00:02<00:02, 2141.94 examples/s]Map:  58%|█████▊    | 7000/12030 [00:03<00:02, 2151.63 examples/s]Map:  67%|██████▋   | 8000/12030 [00:03<00:02, 1898.88 examples/s]Map:  75%|███████▍  | 9000/12030 [00:04<00:01, 1921.07 examples/s]Map:  83%|████████▎ | 10000/12030 [00:04<00:01, 1916.63 examples/s]Map:  91%|█████████▏| 11000/12030 [00:05<00:00, 1951.77 examples/s]Map: 100%|█████████▉| 12000/12030 [00:05<00:00, 2005.21 examples/s]Map: 100%|██████████| 12030/12030 [00:06<00:00, 1885.61 examples/s]
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/training_args.py:1594: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/train_bot.py:121: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+tokenized dataset done
+dataset tokenized
+eval dataset tokenized
+step 6 done
+prep for step 7
+finish step 7
+trainer set up
+trainer thing set
+start the training
+  0%|          | 0/28752 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py:745: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+  0%|          | 1/28752 [02:28<1188:29:13, 148.81s/it]  0%|          | 2/28752 [04:55<1180:17:50, 147.79s/it]  0%|          | 3/28752 [07:23<1177:55:54, 147.50s/it]  0%|          | 4/28752 [09:50<1176:54:18, 147.38s/it]  0%|          | 5/28752 [12:17<1176:56:34, 147.39s/it]  0%|          | 6/28752 [14:45<1177:04:37, 147.41s/it]  0%|          | 7/28752 [17:12<1177:52:29, 147.52s/it]  0%|          | 8/28752 [19:40<1178:56:42, 147.66s/it]slurmstepd-gypsum-gpu085: error: *** JOB 30778357 ON gypsum-gpu085 CANCELLED AT 2025-03-30T03:46:34 ***

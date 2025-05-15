@@ -1,0 +1,86 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+2025-05-05 02:02:20.940916: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1746410540.960991  530631 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1746410540.967240  530631 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1746410540.985680  530631 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1746410540.985706  530631 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1746410540.985709  530631 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1746410540.985712  530631 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-05-05 02:02:20.990377: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+W0000 00:00:1746410569.069484  530631 gpu_device.cc:2430] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 5.2. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+W0000 00:00:1746410569.072363  530631 gpu_device.cc:2430] TensorFlow was not built with CUDA kernel binaries compatible with compute capability 5.2. CUDA kernels will be jit-compiled from PTX, which could take 30 minutes or longer.
+I0000 00:00:1746410569.232799  530631 gpu_device.cc:2019] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 11596 MB memory:  -> device: 0, name: NVIDIA GeForce GTX TITAN X, pci bus id: 0000:81:00.0, compute capability: 5.2
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+F0000 00:00:1746410569.691216  530631 random_op_gpu.h:247] Non-OK-status: GpuLaunchKernel(FillPhiloxRandomKernelLaunch<Distribution>, num_blocks, block_size, 0, d.stream(), key, counter, gen, data, size, dist)
+Status: INTERNAL: no kernel image is available for execution on the device
+*** Check failure stack trace: ***
+    @     0x74e1a48453f4  absl::lts_20230802::log_internal::LogMessage::SendToLog()
+    @     0x74e1a4845264  absl::lts_20230802::log_internal::LogMessage::Flush()
+    @     0x74e1a4845819  absl::lts_20230802::log_internal::LogMessageFatal::~LogMessageFatal()
+    @     0x74e197130c7e  tensorflow::functor::FillPhiloxRandom<>::operator()()
+    @     0x74e19710cb56  tensorflow::FillRandomTensor<>()
+    @     0x74e197107a39  tensorflow::StatelessRandomOpBaseWithKeyCounter::Compute()
+    @     0x74e1ad03da85  tensorflow::BaseGPUDevice::Compute()
+    @     0x74e1ad0f06e8  tensorflow::(anonymous namespace)::SingleThreadedExecutorImpl::Run()
+    @     0x74e1ad0afd74  tensorflow::FunctionLibraryRuntimeImpl::RunSync()
+    @     0x74e1ad0bce90  tensorflow::ProcessFunctionLibraryRuntime::RunMultiDeviceSync()
+    @     0x74e1ad0c32fd  tensorflow::ProcessFunctionLibraryRuntime::RunSync()
+    @     0x74e194067cdf  tensorflow::KernelAndDeviceFunc::Run()
+    @     0x74e194013625  tensorflow::EagerKernelExecute()
+    @     0x74e19401d140  tensorflow::ExecuteNode::Run()
+    @     0x74e194063174  tensorflow::EagerExecutor::SyncExecute()
+    @     0x74e194012f5e  tensorflow::(anonymous namespace)::EagerLocalExecute()
+    @     0x74e194010658  tensorflow::DoEagerExecute()
+    @     0x74e1940143b0  tensorflow::EagerExecute()
+    @     0x74e1936211f7  tensorflow::EagerOperation::Execute()
+    @     0x74e1940618d3  tensorflow::CustomDeviceOpHandler::Execute()
+    @     0x74e190b17cc5  TFE_Execute
+    @     0x74e1a5b6d54a  TFE_Py_FastPathExecute_C()
+    @     0x74e2030d2673  pybind11::detail::argument_loader<>::call<>()
+    @     0x74e2030d25af  pybind11::cpp_function::initialize<>()::{lambda()#1}::__invoke()
+    @     0x74e2030ac54f  pybind11::cpp_function::dispatcher()
+    @           0x58238f  (unknown)
+    @           0x549225  _PyObject_MakeTpCall
+    @           0x5d7909  _PyEval_EvalFrameDefault
+    @           0x54ab3a  _PyObject_Call_Prepend
+    @           0x5a3b08  (unknown)
+    @           0x54b3ac  PyObject_Call
+    @           0x650284  (unknown)
+    @           0x549225  _PyObject_MakeTpCall
+    @           0x5d7909  _PyEval_EvalFrameDefault
+    @           0x54ab3a  _PyObject_Call_Prepend
+    @           0x59e54f  (unknown)
+    @           0x599f93  (unknown)
+    @           0x54b3ac  PyObject_Call
+    @           0x5dba03  _PyEval_EvalFrameDefault
+    @           0x54ab3a  _PyObject_Call_Prepend
+    @           0x5a3b08  (unknown)
+    @           0x5492ee  _PyObject_MakeTpCall
+    @           0x5d7909  _PyEval_EvalFrameDefault
+    @           0x54ce44  (unknown)
+    @           0x54b455  PyObject_Call
+    @           0x5dba03  _PyEval_EvalFrameDefault
+    @           0x54ab3a  _PyObject_Call_Prepend
+    @           0x5a3b08  (unknown)
+    @           0x5492ee  _PyObject_MakeTpCall
+    @           0x5d7909  _PyEval_EvalFrameDefault
+    @           0x54ce44  (unknown)
+    @           0x54b455  PyObject_Call
+    @           0x5dba03  _PyEval_EvalFrameDefault
+    @           0x5d5e4b  PyEval_EvalCode
+    @           0x608fd2  (unknown)
+    @           0x6b55e3  (unknown)
+    @           0x6b534a  _PyRun_SimpleFileObject
+    @           0x6b517f  _PyRun_AnyFileObject
+    @           0x6bd1e5  Py_RunMain
+    @           0x6bcccd  Py_BytesMain
+    @     0x74e28aa2a1ca  (unknown)
+    @     0x74e28aa2a28b  __libc_start_main
+    @           0x658425  _start
+/var/spool/slurm/slurmd/job33791816/slurm_script: line 22: 530631 Aborted                 python runTrained.py

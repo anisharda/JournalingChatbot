@@ -1,0 +1,25 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+2025-05-05 01:59:34.406451: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1746410374.429223  530501 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1746410374.436507  530501 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1746410374.457654  530501 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1746410374.457681  530501 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1746410374.457684  530501 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1746410374.457687  530501 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-05-05 01:59:34.463085: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+path to adapter
+Loaded adapter configs
+Traceback (most recent call last):
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/runTrained.py", line 37, in <module>
+    base_model = TFAutoModelForCausalLM.from_pretrained(base_model_name)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 567, in from_pretrained
+    raise ValueError(
+ValueError: Unrecognized configuration class <class 'transformers.models.llama.configuration_llama.LlamaConfig'> for this kind of AutoModel: TFAutoModelForCausalLM.
+Model type should be one of BertConfig, CamembertConfig, CTRLConfig, GPT2Config, GPT2Config, GPTJConfig, MistralConfig, OpenAIGPTConfig, OPTConfig, RemBertConfig, RobertaConfig, RobertaPreLayerNormConfig, RoFormerConfig, TransfoXLConfig, XGLMConfig, XLMConfig, XLMRobertaConfig, XLNetConfig.

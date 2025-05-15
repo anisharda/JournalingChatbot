@@ -1,0 +1,70 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+2025-05-05 13:57:01.242217: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1746453421.827101    3525 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1746453421.999856    3525 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1746453423.591984    3525 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1746453423.592070    3525 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1746453423.592083    3525 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1746453423.592092    3525 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-05-05 13:57:03.734452: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:30<01:00, 30.34s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:48<00:23, 23.13s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:48<00:00, 12.76s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:48<00:00, 16.28s/it]
+Some parameters are on the meta device because they were offloaded to the cpu.
+Traceback (most recent call last):
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/huggingface_hub/utils/_http.py", line 409, in hf_raise_for_status
+    response.raise_for_status()
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://huggingface.co/vibhorag101/llama-2-13b-chat-hf-phr_mental_therapy/resolve/main/adapter_config.json
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/peft/config.py", line 260, in _get_peft_type
+    config_file = hf_hub_download(
+                  ^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 862, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 925, in _hf_hub_download_to_cache_dir
+    (url_to_download, etag, commit_hash, expected_size, head_call_error) = _get_metadata_or_catch_error(
+                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1376, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 1296, in get_hf_file_metadata
+    r = _request_wrapper(
+        ^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 280, in _request_wrapper
+    response = _request_wrapper(
+               ^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/huggingface_hub/file_download.py", line 304, in _request_wrapper
+    hf_raise_for_status(response)
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/huggingface_hub/utils/_http.py", line 420, in hf_raise_for_status
+    raise _format(EntryNotFoundError, message, response) from e
+huggingface_hub.errors.EntryNotFoundError: 404 Client Error. (Request ID: Root=1-6818c3fb-3c3140b65a1ef770717cf8d7;f2c204e5-2d02-498f-abed-1059fdaf1396)
+
+Entry Not Found for url: https://huggingface.co/vibhorag101/llama-2-13b-chat-hf-phr_mental_therapy/resolve/main/adapter_config.json.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/runTrained.py", line 47, in <module>
+    model = PeftModel.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/peft/peft_model.py", line 439, in from_pretrained
+    PeftConfig._get_peft_type(
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/peft/config.py", line 266, in _get_peft_type
+    raise ValueError(f"Can't find '{CONFIG_NAME}' at '{model_id}'")
+ValueError: Can't find 'adapter_config.json' at 'vibhorag101/llama-2-13b-chat-hf-phr_mental_therapy'

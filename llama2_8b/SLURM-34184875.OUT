@@ -1,0 +1,22 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+2025-05-12 17:10:00.399875: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1747069802.234893  209895 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1747069802.455366  209895 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1747069807.491965  209895 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747069807.492025  209895 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747069807.492033  209895 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747069807.492039  209895 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-05-12 17:10:08.183575: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+`low_cpu_mem_usage` was None, now default to True since model is quantized.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [05:44<11:29, 344.99s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [11:02<05:28, 328.89s/it]Loading checkpoint shards: 100%|██████████| 3/3 [14:23<00:00, 270.56s/it]Loading checkpoint shards: 100%|██████████| 3/3 [14:23<00:00, 287.92s/it]
+Device set to use cuda:0
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/bitsandbytes/nn/modules.py:451: UserWarning: Input type into Linear4bit is torch.float16, but bnb_4bit_compute_dtype=torch.float32 (default). This will lead to slow inference or training speed.
+  warnings.warn(
+[INST] My mother and I fight constantly. I know I say hurtful things, but I don’t mean to. I don’t want to lose her. [/INST]
+[INST] My mother and I fight constantly. I know I say hurtful things, but I don’t mean to. I don’t want to lose her. [/INST][INST] It sounds like you're really struggling with the conflict between you and your mother. It's understandable that you don't want to lose her, and I can see how the hurtful words you say might make you feel even more anxious. Can you tell me more about what you're experiencing? 

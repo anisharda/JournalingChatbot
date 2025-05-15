@@ -1,0 +1,47 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+2025-03-24 14:25:01.197120: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1742826301.773410 2130371 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1742826301.950262 2130371 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1742826303.374135 2130371 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1742826303.374209 2130371 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1742826303.374216 2130371 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1742826303.374222 2130371 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-03-24 14:25:03.507234: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Could not cache non-existence of file. Will ignore error and continue. Error: [Errno 122] Disk quota exceeded: '/home/asharda_umass_edu/.cache/huggingface/hub/models--vibhorag101--llama-2-13b-chat-hf-phr_mental_therapy/.no_exist/a9127b4a0e54edc64f761b00a13d7b366aee59f7/adapter_config.json'
+Could not cache non-existence of file. Will ignore error and continue. Error: [Errno 122] Disk quota exceeded: '/home/asharda_umass_edu/.cache/huggingface/hub/models--vibhorag101--llama-2-13b-chat-hf-phr_mental_therapy/.no_exist/a9127b4a0e54edc64f761b00a13d7b366aee59f7/adapter_config.json'
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [01:27<02:55, 87.67s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [02:56<01:28, 88.18s/it]Loading checkpoint shards: 100%|██████████| 3/3 [03:52<00:00, 73.62s/it]Loading checkpoint shards: 100%|██████████| 3/3 [03:52<00:00, 77.50s/it]
+Map:   0%|          | 0/12030 [00:00<?, ? examples/s]Map:   0%|          | 0/12030 [00:00<?, ? examples/s]Map:   0%|          | 0/12030 [00:00<?, ? examples/s]
+Traceback (most recent call last):
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/train_bot.py", line 113, in <module>
+    tokenized_datasets = dataset.map(preprocess_function, batched=True)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/datasets/dataset_dict.py", line 941, in map
+    dataset_dict[split] = dataset.map(
+                          ^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 557, in wrapper
+    out: Union["Dataset", "DatasetDict"] = func(self, *args, **kwargs)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 3074, in map
+    for rank, done, content in Dataset._map_single(**dataset_kwargs):
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 3520, in _map_single
+    buf_writer, writer, tmp_file = init_buffer_and_writer()
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/datasets/arrow_dataset.py", line 3422, in init_buffer_and_writer
+    tmp_file = tempfile.NamedTemporaryFile("wb", dir=cache_dir, delete=False)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 721, in NamedTemporaryFile
+    file = _io.open(dir, mode, buffering=buffering,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 718, in opener
+    fd, name = _mkstemp_inner(dir, prefix, suffix, flags, output_type)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/tempfile.py", line 395, in _mkstemp_inner
+    fd = _os.open(file, flags, 0o600)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 122] Disk quota exceeded: '/home/asharda_umass_edu/.cache/huggingface/datasets/empathetic_dialogues/default/0.1.0/09bbeed3882a67db98c73952fb3c1c9a85af83dc78f81454c2454382fd03f6cf/tmppfn873ea'

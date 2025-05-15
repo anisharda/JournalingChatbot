@@ -1,0 +1,9 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/train_bot.py", line 45
+    print("model prepped"_
+         ^
+SyntaxError: '(' was never closed

@@ -1,0 +1,273 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+W0409 07:03:33.794000 756852 torch/distributed/run.py:792] 
+W0409 07:03:33.794000 756852 torch/distributed/run.py:792] *****************************************
+W0409 07:03:33.794000 756852 torch/distributed/run.py:792] Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+W0409 07:03:33.794000 756852 torch/distributed/run.py:792] *****************************************
+2025-04-09 07:03:40.422752: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-09 07:03:40.422752: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-09 07:03:40.422752: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-09 07:03:40.438170: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-09 07:03:40.438171: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-09 07:03:40.438218: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1744182220.453780  756860 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1744182220.453780  756862 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1744182220.453781  756859 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1744182220.458356  756860 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1744182220.458359  756862 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+E0000 00:00:1744182220.458360  756859 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1744182220.473597  756860 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.473597  756859 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.473621  756860 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.473627  756859 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.473628  756860 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.473641  756859 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.473643  756860 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.473644  756859 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.477340  756862 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.477363  756862 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.477366  756862 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.477368  756862 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-04-09 07:03:40.477545: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-04-09 07:03:40.477545: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-04-09 07:03:40.480928: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-04-09 07:03:40.533607: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-09 07:03:40.538668: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-04-09 07:03:40.546662: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-04-09 07:03:40.551174: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1744182220.561778  756861 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1744182220.566191  756861 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1744182220.566220  756858 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1744182220.570597  756858 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1744182220.579784  756861 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.579808  756861 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.579810  756861 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.579812  756861 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.582725  756858 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.582743  756858 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.582746  756858 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1744182220.582748  756858 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-04-09 07:03:40.583406: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-04-09 07:03:40.586428: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+STARTING the code
+STARTING the code
+STARTING the code
+STARTING the code
+STARTING the code
+step one completed, dataset loaded
+step one completed, dataset loaded
+step one completed, dataset loaded
+step one completed, dataset loaded
+step one completed, dataset loaded
+tokenize the model
+tokenize the model
+tokenize the model
+tokenize the model
+tokenize the model
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:05,  2.72s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:05,  2.80s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:02<00:05,  2.78s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:06,  3.48s/it]Loading checkpoint shards:  33%|███▎      | 1/3 [00:04<00:08,  4.11s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:05<00:02,  2.75s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.12s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.30s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:06<00:03,  3.35s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:07<00:03,  3.65s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.30s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:07<00:00,  2.43s/it]
+model loaded + tokenization = step 2 done
+prep model for fine tuning
+model prepped
+doing lora config
+get peft model about to run
+step 3 done
+start preprocessing step
+function created for step 4
+tokenized dataset done
+dataset tokenized
+eval dataset tokenized
+step 6 done
+prep for step 7
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/training_args.py:1594: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+finish step 7
+trainer set up
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/train_bot.py:135: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+trainer thing set
+start the training
+Loading checkpoint shards: 100%|██████████| 3/3 [00:08<00:00,  2.73s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:08<00:00,  2.80s/it]
+Loading checkpoint shards: 100%|██████████| 3/3 [00:08<00:00,  2.70s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:08<00:00,  2.81s/it]
+model loaded + tokenization = step 2 done
+prep model for fine tuning
+[rank3]: Traceback (most recent call last):
+[rank3]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/train_bot.py", line 147, in <module>
+[rank3]:     trainer.train()
+[rank3]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/trainer.py", line 2241, in train
+[rank3]:     return inner_training_loop(
+[rank3]:            ^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/trainer.py", line 2365, in _inner_training_loop
+[rank3]:     model, self.optimizer = self.accelerator.prepare(self.model, self.optimizer)
+[rank3]:                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank3]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/accelerate/accelerator.py", line 1337, in prepare
+[rank3]:     raise ValueError(
+[rank3]: ValueError: You can't train a model that has been loaded with `device_map='auto'` in any distributed mode. Please rerun your script specifying `--num_processes=1` or by launching with `python {{myscript.py}}`.
+model prepped
+doing lora config
+get peft model about to run
+model loaded + tokenization = step 2 done
+prep model for fine tuning
+model prepped
+doing lora config
+get peft model about to run
+Loading checkpoint shards: 100%|██████████| 3/3 [00:08<00:00,  2.74s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:08<00:00,  2.98s/it]
+step 3 done
+start preprocessing step
+function created for step 4
+tokenized dataset done
+dataset tokenized
+eval dataset tokenized
+step 6 done
+prep for step 7
+step 3 done
+start preprocessing step
+function created for step 4
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/training_args.py:1594: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+tokenized dataset done
+dataset tokenized
+eval dataset tokenized
+step 6 done
+prep for step 7
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/training_args.py:1594: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+finish step 7
+trainer set up
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/train_bot.py:135: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+trainer thing set
+start the training
+finish step 7
+trainer set up
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/train_bot.py:135: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+trainer thing set
+start the training
+model loaded + tokenization = step 2 done
+prep model for fine tuning
+model prepped
+doing lora config
+get peft model about to run
+[rank2]: Traceback (most recent call last):
+[rank2]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/train_bot.py", line 147, in <module>
+[rank2]:     trainer.train()
+[rank2]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/trainer.py", line 2241, in train
+[rank2]:     return inner_training_loop(
+[rank2]:            ^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/trainer.py", line 2365, in _inner_training_loop
+[rank2]:     model, self.optimizer = self.accelerator.prepare(self.model, self.optimizer)
+[rank2]:                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank2]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/accelerate/accelerator.py", line 1337, in prepare
+[rank2]:     raise ValueError(
+[rank2]: ValueError: You can't train a model that has been loaded with `device_map='auto'` in any distributed mode. Please rerun your script specifying `--num_processes=1` or by launching with `python {{myscript.py}}`.
+[rank0]: Traceback (most recent call last):
+[rank0]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/train_bot.py", line 147, in <module>
+[rank0]:     trainer.train()
+[rank0]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/trainer.py", line 2241, in train
+[rank0]:     return inner_training_loop(
+[rank0]:            ^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/trainer.py", line 2365, in _inner_training_loop
+[rank0]:     model, self.optimizer = self.accelerator.prepare(self.model, self.optimizer)
+[rank0]:                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank0]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/accelerate/accelerator.py", line 1337, in prepare
+[rank0]:     raise ValueError(
+[rank0]: ValueError: You can't train a model that has been loaded with `device_map='auto'` in any distributed mode. Please rerun your script specifying `--num_processes=1` or by launching with `python {{myscript.py}}`.
+step 3 done
+start preprocessing step
+function created for step 4
+Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.11s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.24s/it]
+tokenized dataset done
+dataset tokenized
+eval dataset tokenized
+step 6 done
+prep for step 7
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/training_args.py:1594: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+finish step 7
+trainer set up
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/train_bot.py:135: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+trainer thing set
+start the training
+[rank4]: Traceback (most recent call last):
+[rank4]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/train_bot.py", line 147, in <module>
+[rank4]:     trainer.train()
+[rank4]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/trainer.py", line 2241, in train
+[rank4]:     return inner_training_loop(
+[rank4]:            ^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/trainer.py", line 2365, in _inner_training_loop
+[rank4]:     model, self.optimizer = self.accelerator.prepare(self.model, self.optimizer)
+[rank4]:                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[rank4]:   File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/accelerate/accelerator.py", line 1337, in prepare
+[rank4]:     raise ValueError(
+[rank4]: ValueError: You can't train a model that has been loaded with `device_map='auto'` in any distributed mode. Please rerun your script specifying `--num_processes=1` or by launching with `python {{myscript.py}}`.
+model loaded + tokenization = step 2 done
+prep model for fine tuning
+model prepped
+doing lora config
+get peft model about to run
+[rank0]:[W409 07:04:06.101376907 ProcessGroupNCCL.cpp:1496] Warning: WARNING: destroy_process_group() was not called before program exit, which can leak resources. For more info, please see https://pytorch.org/docs/stable/distributed.html#shutdown (function operator())
+step 3 done
+start preprocessing step
+function created for step 4
+tokenized dataset done
+dataset tokenized
+eval dataset tokenized
+step 6 done
+prep for step 7
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/training_args.py:1594: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+W0409 07:04:06.748000 756852 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 756858 closing signal SIGTERM
+W0409 07:04:06.756000 756852 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 756859 closing signal SIGTERM
+W0409 07:04:06.756000 756852 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 756860 closing signal SIGTERM
+W0409 07:04:06.757000 756852 torch/distributed/elastic/multiprocessing/api.py:897] Sending process 756862 closing signal SIGTERM
+E0409 07:04:09.297000 756852 torch/distributed/elastic/multiprocessing/api.py:869] failed (exitcode: 1) local_rank: 3 (pid: 756861) of binary: /work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/bin/python
+Traceback (most recent call last):
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/bin/torchrun", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 355, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/distributed/run.py", line 918, in main
+    run(args)
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/distributed/run.py", line 909, in run
+    elastic_launch(
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 138, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/distributed/launcher/api.py", line 269, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+train_bot.py FAILED
+------------------------------------------------------------
+Failures:
+  <NO_OTHER_FAILURES>
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2025-04-09_07:04:06
+  host      : gpu023.unity.rc.umass.edu
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 756861)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================

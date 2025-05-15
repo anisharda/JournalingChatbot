@@ -1,0 +1,57 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+2025-05-12 17:24:14.417372: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-12 17:24:15.403074: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1747070655.672595  714764 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1747070655.792634  714764 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1747070656.488595  714764 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747070656.488620  714764 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747070656.488623  714764 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747070656.488625  714764 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-05-12 17:24:16.572382: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:03<00:07,  3.85s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:07<00:03,  3.77s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.15s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:09<00:00,  3.33s/it]
+
+=== Model Responses ===
+
+Response 1:
+It's understandable to feel like a failure when we procrastinate and put things off. Procrastination can be a very negative self-talk and self-doubt can be even more.  I'm here to tell you that you're not a failure. You're doing the best you can. You're doing the best you can with the resources you have and the information you have. It's okay. And if you are feeling like a failure and I feel like a failure a lot, that's just okay too. That's
+
+Response 2:
+Sorry to hear that you're feeling like a failure. It's understandable to feel that way when you're procrastinating, especially when you have important tasks to complete. It's important to remember that procrastination is a common experience, and there are many reasons why people put things off. Here are a few reasons why you might be procrastinating:
+
+1. Fear of failure: You might be avoiding certain tasks because you're afraid of doing them poorly or making mistakes.
+2. Perfectionism: You might be putting things off because you want to do them perfectly, but that's not always possible.
+3. Lack of motivation: You might not feel motivated to do the tasks because they're not interesting or rewarding to you.
+4. Distractions: You might be easily distracted by other things, like social media or TV, and not realize how much time you're wasting.
+5. Overwhelm: You might feel overwhelmed by the task and not know where to start.
+
+It's important to remember that everyone procrastinates sometimes, and it's okay to take a break if you need to. However, it's important to recognize when you're procrastinating and try to address the underlying reasons why you're doing it. Here are a few strategies that might help:
+
+1. Break tasks into smaller steps: This can make them feel less overwhelming and more manageable.
+2. Set specific goals: Having a clear goal can help you stay motivated and focused.
+3. Create a schedule: Plan out your day or week and set aside specific times for certain tasks.
+4. Use a timer: Set a timer for a certain amount of time, say 25 minutes, and work on a task without any distractions during that time. Take a break when the timer goes off and then repeat the process. This technique is called the Pomodoro technique.
+5. Seek support: Share your goals and plans with a friend or family member and ask them to hold you accountable.
+6. Reward yourself: Give yourself a small reward when you complete a task or reach a milestone.
+
+It's also important to be kind to yourself and not beat yourself up over procrastination. Remember that you're doing the best you can, and that's okay. It's okay to make mistakes and have setbacks. The important thing is to learn from them and keep moving forward.
+
+Response 3:
+Sorry to hear that you're feeling that way. It sounds like you're struggling with procrastination and negative self-talk. It's important to remember that everyone procrastinates sometimes, and it's okay to struggle with productivity. It doesn't mean you're a failure.
+
+It might be helpful to identify the reasons why you're procrastinating. Are you feeling overwhelmed or anxious about the task at hand? Do you have trouble prioritizing or setting boundaries with your time? Once you understand the reasons behind your procrastination, you might be able to develop strategies to overcome it.
+
+In the meantime, here are a few things you can try to help you get started:
+
+1. Break the task down into smaller, more manageable pieces. Sometimes, big tasks can feel overwhelming, but smaller tasks can feel more doable.
+2. Set a timer for a short amount of time (like 25 minutes) and work on the task without any distractions during that time. Take a break when the timer goes off, and then repeat the process. This technique is called the Pomodoro technique.
+3. Remove distractions and create a conducive work environment. Turn off your phone, close social media tabs, and find a quiet place to work.
+4. Reward yourself for completing tasks. Give yourself a small treat or reward when you finish something. This can be a fun way to motivate yourself.
+5. Practice self-compassion. Remember that it's okay to make mistakes and have setbacks. Be kind to yourself, and try not to beat yourself up over procrastination.
+
+Remember, it takes time to develop new habits and strategies for overcoming procrastination. Be patient with yourself, and try not to give up. You got this!

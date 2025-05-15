@@ -1,0 +1,135 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+2025-05-11 23:58:06.622511: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-11 23:58:06.635869: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1747007886.651435 4017581 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1747007886.656250 4017581 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1747007886.669723 4017581 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747007886.669743 4017581 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747007886.669746 4017581 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747007886.669748 4017581 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-05-11 23:58:06.673683: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:03,  1.80s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:03<00:01,  1.88s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.62s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.68s/it]
+
+=== Model Responses ===
+
+Response 1:
+to be a you. The Rover is a compact and versatile SUV that is designed for those who want a reliable and comfortable vehicle that can handle a variety of driving situations. Its spacious interior and generous cargo space make it a great choice for road trips, while its off-road capabilities make it a great option for those who enjoy exploring rough terrain. The Rover has a rugged design and a comfortable interior, making it a great choice for those who want a vehicle that can handle everything from daily commutes to off-road adventures. I'm looking to buy a new laptop and I'm having a hard time deciding between a MacBook and a PC. I know that MacBooks are more expensive than PCs but they seem to have more quality parts. What do you recommend? 0:00: Hey guys! I'm looking to buy a new laptop. I'm deciding between a MacBook and a PC. I'm not really sure what I'm doing. 0:03: Yeah, I'm in the same boat. You can depend on us for excellent and timely service. Our friendly, knowledgeable staff is here to help you with all of your computer needs. You will find that we are honest and trustworthy. Our rates are fair and affordable. We have over 10 years experience in the computer business and have built a solid reputation for quality and reliability. This beautiful 3-bedroom, 2-bath home has been recently renovated and is located in a quiet neighborhood. The home features a spacious living room with a fireplace, a dining area, and a kitchen with stainless steel appliances. The master bedroom has an en-suite bathroom and a walk-in closet. The backyard is perfect for entertaining and has a covered patio and a grassy area. This home is a must-see! How to remove viruses and malware from your computer?
+Viruses and malware can cause a lot of harm to your computer. They can steal your personal information, slow down your computer, and even crash it completely. That's why it's important to protect your computer against them. Here are some steps to help you remove viruses and malware from your computer.
+1. Install antivirus software: You need to install antivirus software on your computer to protect it against viruses and malware. There are many antivirus software available in the market such as Norton Antivirus, McAfee Antivirus, and Avast Antivirus. Choose one that you think is the best for you.
+2. Update your antivirus software: You need to update your antivirus software regularly to ensure that it can detect the latest viruses and malware. You can update your antivirus software by opening it and clicking on the update button.
+3. Run a full scan: Once you have updated your antivirus software, you need to run a full scan of your computer. This will help your antivirus software detect and remove any viruses and malware that are present on your computer.
+4. Remove any suspicious files: If your antivirus software detects any suspicious files, you should remove them immediately. You can do this by right-clicking on the suspicious files and selecting delete.
+5. Use a malware removal tool: If your antivirus software does not detect any viruses or malware, you can use a malware removal tool to remove them. There are many malware removal tools available in the market such as Malwarebytes and HitmanPro.
+6. Back up your data: Before removing any viruses or malware, you should back up your data to an external hard drive or cloud storage. This will ensure that you do not lose any important files during the removal process.
+7. Use a bootable antivirus CD or USB: If your computer is too infected that you cannot run your antivirus software, you can use a bootable antivirus CD or USB to remove the viruses and malware.
+8. Use a firewall: A firewall can help protect your computer from viruses and malware by blocking any suspicious traffic from entering your computer.
+9. Use safe browsing habits: You can also protect your computer from viruses and malware by using safe browsing habits such as avoiding suspicious websites and downloading files from untrusted sources.
+10. Keep your operating system and software up to date: Keeping your operating system and software up to date can also help protect your computer from viruses and malware. You can update your operating system and software by opening the settings and clicking on the update button.
+By following these steps, you can remove viruses and malware from your computer and protect it from future infections. It's important to remember that antivirus software is not a 100% guarantee against viruses and malware, so you should always be cautious when browsing the internet and downloading files. In today’s blog, we will discuss the role of the dental hygienist and their importance in maintaining good oral health.
+Dental hygienists play a crucial role in maintaining good oral health. They are responsible for examining the teeth and gums, removing plaque and tartar, and providing preventative dental care. They also educate patients on proper oral hygiene techniques and provide guidance on maintaining a healthy diet and lifestyle.
+Dental hygienists work closely with dentists and other dental professionals to provide comprehensive care for patients. They are trained to identify early signs of oral health problems and can help prevent more serious issues from developing.
+One of the main responsibilities of a dental hygienist is to remove plaque and tartar from the teeth. Plaque is a sticky film of bacteria that can build up on the teeth and lead to tooth decay and gum disease. Tartar is a hardened form of plaque that can only be removed by a dental professional. By removing plaque and tartar, dental hygienists can help prevent these problems and maintain healthy teeth and gums.
+Another important role of dental hygienists is to educate patients on proper oral hygiene techniques. They teach patients how to brush and floss properly, as well as how to eat a healthy diet and avoid sugary snacks and drinks. By providing patients with the knowledge and tools they need to maintain good oral health, dental hygienists can help prevent oral health problems from developing in the first place.
+Dental hygienists also play a key role in the early detection of oral health problems. They are trained to identify early signs of problems such as tooth decay, gum disease, and oral cancer. By identifying these issues early on, dental hygienists can help prevent more serious problems from developing and ensure that patients receive the appropriate treatment.
+In addition to their clinical duties, dental hygienists also play an important role in the overall health of patients. Studies have shown that there is a strong link between oral health and overall health. By maintaining good oral health, patients can reduce their risk of developing a range of chronic diseases, such as heart disease, diabetes, and respiratory infections.
+In conclusion, dental hygienists play a crucial role in maintaining good oral health. They are responsible for removing plaque and tartar, educating patients on proper oral hygiene techniques, and identifying early signs of oral health problems. By providing comprehensive care and education, dental hygienists can help prevent oral health problems and promote overall health and wellness. It's time for another fun-filled weekend of learning and exploration at the Discovery Center! Here are some of the exciting activities and events happening this weekend:
+
+1. "Maker Faire" - Saturday, 10am-4pm
+Calling all makers, inventors, and innovators! The Discovery Center is hosting its first-ever Maker Faire, featuring hands-on activities, interactive exhibits, and demonstrations of cutting-edge technology. Come showcase your projects, attend workshops, and connect with other makers in the community.
+2. "Space Exploration" - Saturday and Sunday, 10am-5pm
+Blast off into the unknown with the Discovery Center's new space-themed exhibit! Learn about the solar system, the life of astronauts, and the technology behind space exploration. You can even build your own spacecraft and launch it into orbit!
+3. "Dinosaur Discovery" - Sunday, 1pm-3pm
+Unleash your inner paleontologist and discover the prehistoric world of dinosaurs! Learn about the different species, their habitats, and the fascinating facts about these ancient creatures. Plus, you can even dig for dinosaur bones in our interactive fossil dig site!
+4. "Science Showdown" - Saturday, 2pm-3pm
+Get ready for a battle of wits and science smarts! The Discovery Center's resident scientists will face off in a fun and interactive showdown, answering questions and demonstrating cool science experiments.
+
+Response 2:
+? I am really stressedm I'm really sorry but you're kind of that one that's really annoying. I'ms' you 👍 I agree with you. It'ss I am a 23 year old woman and I have been dating my boyfriend for 5 years. it's not likes_ ds I have a crush on the to I have I to ass_s I really I know I like thesm have a crush is a 100%s like I know that'st crush'.s crush'm to.com's's crush's'm'm.com's't's'sm'm.m.'s.'s'm'm's.'m's'm's's.'m''m's.com''s's'm's''mm'm's's's's's.com'm'm.com.'m.com'm.com'm's'm.com.com'm.'s.com's'mm.com's I'm.com'm.com'm.com'm'm'm.com'm'm'm'm.com'm.'m.com'm.com'm.com'm.com'm'm.com..m'm.com'm.'m.com'm.com'm.com'm.com's'm.com.com'm.com'm.com'm.com'm.com'm.com'm.com'm'm.'m.'m'm.com.com'm.com'm.'m.com.com.'m.com.com'm.comm.'m.com..com.com.'m.com.com..com.com.com.'m.com.com.com..com.'m.'m.com.com.com.com.com.'m.com.com.com.com.com.com.'m.com.com..com.com.com.'m.com.com.com.com..com.com.'m..com.com.com.'m.com.com..com..com.com.com.com..com.com.com.com..com.com.com.com.com.com.com..com.com.com.com...com.com.com.com.com.com.com..com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com..com.com..com.com.com..com.com.com..com.com.com..com.com.com..com.com.com.com.com.com.com.com.com.com.com.com.com..com..com..com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com..com..com.com.com.com.com.com.com.com.com.com...com.com.com.com.com.com.com.com.com.com.com.com.com..com.com.com..com.com.com.com..com.com.com.com.com.com..com.com.com.com.com.com..com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com..com..com.com.com.com.com.com.com.com..com.com.com.com.com.com.com.com.com.com.com.com..com..com.com.com.com.com.com..com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com..com.com.com.com.com.com.com.com.com.com.com.com.com..com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com.com..com..com.com..com.com.com.com.com.com..com.com.com.com.com.com.com.com.com.com.com..com.com.com.com.com.com.com.com.com.com.com.com.com.com..com..com.com.com.com.com.com.com.com.com.com.com.com.com..com.com.com.com.com..com.com.com.com.com.com.com..com.com.com...com.com.com.com.com.com.com..com.com.com.com..com.com.com.com.com.com.com.com.com..com.com.com.com.com.com.com.com.com.com.com.com..com.com...com.com.com.com.com...com..com.com.com...com.com...com..com.com..com.com.com....com.com.com.com.com..com.com.com.com..com.com..com.com.com.com.com.com..com.com..com..com.com...com.com.com.com..com.com.com.com.com...com.com.com....com..com.com..com.com.com.com.com..com.com..com.com..com.com.com.com..com.com..com.com.com.com
+
+Response 3:
+I am feeling overwhelmed with school. school. I have a lot a lot of homework and What'. to. do. I I'm I'm. I'm a lot What do I do? 3 Ways to get your kids to eat healthy The following is a list of some of the best ways to get your kids to eat healthy foods. I hope you find it helpful.
+
+1. Start 'em young: Teach your kids about healthy foods from an early age. Take them shopping with you and let them pick out fruits and vegetables.
+2. Make it fun: Make healthy foods fun to eat. You can do this by creating fun shapes with fruits and vegetables or making fruit smoothies in fun colors.
+3. Be a good role model: Kids are more likely to eat healthy foods if they see their parents eating them too. Be sure to model healthy eating habits for your kids.
+4. Make it convenient: Keep healthy snacks on hand for your kids. This way they are more likely to grab a healthy snack when they are hungry.
+5. Limit junk food: Don't keep junk food in the house. If it's not there, your kids can't eat it! The Evolution of the Computer Mouse
+The computer mouse has come a long way since its inception in the 1960s. Here is an overview of the evolution of the computer mouse.
+The computer mouse has come a long way since its inception in the 1960s. Here is an overview of the evolution of the computer mouse:
+
+1. 1964: The First Mouse
+The first computer mouse was created by Douglas Engelbart and his team at Stanford Research Institute (SRI). It was made of wood and had only one button. The mouse was used in a famous demonstration known as "The Mother of All Demos" and was later commercialized by Apple in the 1980s.
+
+2. 1980s: The Apple Mouse
+Apple popularized the computer mouse in the 1980s with the release of the Apple Macintosh computer. The Apple mouse was designed by Apple co-founder Steve Jobs and was known for its sleek design and user-friendly interface.
+
+3. 1990s: The Wireless Mouse
+In the 1990s, wireless mice were introduced, allowing users to move around without the hassle of cords. Wireless mice used radio frequency (RF) technology to communicate with computers.
+
+4. 2000s: The Optical Mouse
+In the early 2000s, optical mice were introduced. These mice used a light-emitting diode (LED) to detect movement instead of a physical ball. Optical mice were more accurate and reliable than traditional mechanical mice.
+
+5. 2010s: The Touchpad and the Mouse with More Buttons
+In the 2010s, touchpads became popular as a way to navigate laptops and other devices without a physical mouse. Touchpads use a grid of sensors to detect finger movements and allow users to navigate and control their devices.
+
+At the same time, mice with more buttons were introduced, allowing users to perform more actions with a single device. These mice were popular among gamers and graphic designers who needed quick access to multiple commands.
+
+6. Present Day: The Gaming Mouse
+Today, computer mice are designed specifically for gaming and other specialized tasks. Gaming mice often have high-precision sensors, adjustable sensitivity, and customizable buttons. They are also made with ergonomic designs that fit comfortably in the hand and allow for long gaming sessions.
+
+The computer mouse has come a long way since its inception in the 1960s. From its humble beginnings as a wooden prototype to the high-tech gaming mice of today, the computer mouse has evolved to become an essential tool for computer users around the world. The Impact of Technology on Education
+
+Technology has had a profound impact on education, changing the way students learn and teachers teach. Here are some of the ways technology has impacted education:
+
+1. Access to information: With the internet at their fingertips, students have access to a vast amount of information and resources that they can use to learn and conduct research.
+
+2. Personalized learning: Technology allows for personalized learning, which means that students can learn at their own pace and in their own style. This can be especially helpful for students who may need extra help or for those who are advanced and need more challenging material.
+
+3. Virtual classrooms: Technology has made it possible for students to attend class remotely, which can be especially helpful for students who may not be able to attend class in person due to illness or other circumstances.
+
+4. Interactive learning: Technology has made it possible for students to engage in interactive learning, which can be more engaging and effective than traditional teaching methods.
+
+5. Real-time feedback: Technology allows for real-time feedback, which can help students understand their strengths and weaknesses and improve their performance.
+
+6. Collaboration tools: Technology has made it easier for students to collaborate on projects and share ideas and resources.
+
+7. Access to experts: Technology has made it possible for students to connect with experts and professionals in their field, which can be especially helpful for students who are interested in a particular career path.
+
+8. Online resources: There are a vast number of online resources available for students, including tutorials, videos, and interactive learning tools.
+
+9. Virtual reality: Technology has made it possible for students to experience virtual reality, which can be especially helpful for subjects such as history, science, and math.
+
+10. Gamification: Technology has made it possible for students to engage in gamification, which can make learning more engaging and fun.
+
+11. Microlearning: Technology has made it possible for students to engage in microlearning, which is learning in short bursts. This can be especially helpful for students who have busy schedules or who need to learn on the go.
+
+12. Adaptive learning: Technology has made it possible for students to engage in adaptive learning, which means that the material adapts to the student's needs and abilities.
+
+13. Automated grading: Technology has made it possible for teachers to use automated grading systems, which can save time and reduce grading errors.
+
+14. Digital portfolios: Technology has made it possible for students to create digital portfolios, which can showcase their work and accomplishments.
+
+15. Virtual reality field trips: Technology has made it possible for students to take virtual reality field trips, which can be especially helpful for students who may not be able to take physical field trips.
+
+16. Online tutoring: Technology has made it possible for students to receive online tutoring, which can be especially helpful for students who may need extra help outside of class.
+
+17. Collaborative tools: Technology has made it possible for students to collaborate on projects and share ideas and resources in real-time.
+
+18. Virtual classroom tools: Technology has made it possible for teachers to use virtual classroom tools, such as virtual whiteboards and interactive presentations.
+
+19. Learning analytics: Technology has made it possible for teachers to use learning analytics, which can help them understand how students are learning and identify areas where students may need extra help.
+
+20. Video conferencing: Technology has made it possible for students and teachers to connect remotely through video conferencing, which can be especially helpful for students who may not be able to attend class in person.
+
+In conclusion, technology has had a profound impact on education, changing the way students learn and teachers teach. It has made it possible for students to access information and resources, engage in interactive learning, and collaborate with other students and professionals in their field. 1994 was the year that I was born.
+It was the year that the first text message was sent, the first time that a planet outside our solar system was discovered and the first time that the US was hit by a major hurricane. The day of the wedding had finally arrived, and the preparations were all but complete. The bride and groom were both busy with last-minute tasks, trying to get everything just right.
+
+The bride was nervous but excited, her heart racing with anticipation as she put the final touches on her makeup and hair. She was a beautiful woman, with long blonde hair and bright blue eyes, and she was glowing with happiness as she prepared to marry the love of her life.
+
+The groom was also busy, making sure that everything was in place for the ceremony. He was a tall, handsome man with a strong jaw and piercing green eyes. He was a successful businessman, and he had always been a catch, but he had never been as happy as he was now that he had

@@ -1,0 +1,57 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+2025-05-14 15:46:53.615409: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-14 15:46:53.628881: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1747237613.644776 2215331 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1747237613.649608 2215331 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1747237613.663462 2215331 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747237613.663483 2215331 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747237613.663486 2215331 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747237613.663488 2215331 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-05-14 15:46:53.667388: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:03,  1.93s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:03<00:02,  2.01s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.73s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.80s/it]
+
+=== Model Responses ===
+
+Response 1:
+Congratulations on your promotion! It's completely normal to feel anxious and uncertain about your new role, especially if you feel like you don't deserve it. It's important to remember that you were chosen for this promotion for a reason, and your employer saw something in you that they believe you're capable of doing well.
+
+Here are some things you can do to help yourself feel more confident and deserving of your promotion:
+
+1. Acknowledge your accomplishments: Take some time to reflect on your past accomplishments and the skills you've developed. Make a list of your strengths and accomplishments, and remind yourself of them often. This can help you feel more confident and deserving of your promotion.
+2. Focus on your strengths: Rather than focusing on your weaknesses, focus on your strengths and the things you're good at. This can help you feel more confident and capable in your new role.
+3. Ask for support: Don't be afraid to ask for support from your colleagues, mentors, or supervisor. They can provide guidance and resources to help you navigate your new role and feel more confident.
+4. Give yourself time to adjust: It's okay to take some time to adjust to your new role and responsibilities. Give yourself time to learn and grow into your new position.
+5. Practice self-care: Take care of yourself physically, emotionally, and mentally. Make sure to get enough sleep, exercise, and eat well. Practice stress-reducing techniques like meditation, deep breathing, or yoga to help manage your anxiety.
+6. Celebrate your successes: Celebrate your successes, no matter how small they may seem. This can help you feel more confident and deserving of your promotion.
+
+Remember, it's normal to feel anxious and uncertain about your new role, but with time and effort, you can grow into your new position and feel more confident and deserving of your promotion.
+
+Response 2:
+Congratulations on your promotion! It's completely normal to feel a mix of emotions when receiving a promotion, especially if you feel like you don't deserve it or are not ready for the responsibility that comes with it. Here are some things to keep in mind:
+
+1. You were chosen for a reason: Your employer saw something in you that they believed made you the best fit for the role. They saw your strengths and potential, and they decided to invest in you.
+2. It's okay to feel overwhelmed: It's normal to feel overwhelmed when taking on a new role, especially if it's a step up from your previous position. It's okay to admit that you don't know everything and to ask for help along the way.
+3. You can learn and grow: A promotion is an opportunity for you to learn and grow in your career. It's okay to make mistakes and learn from them. That's how you'll become a better employee and a better leader.
+4. You deserve it: It's important to remember that you deserve this promotion. You were chosen for a reason, and you have the skills and qualifications to excel in this role. Don't sell yourself short by thinking that you don't deserve it.
+5. You can handle it: You've been doing your job for a while now, and you've been doing it well. You have the experience and the skills to handle the responsibilities that come with this new role. Trust yourself and your abilities.
+6. You can ask for help: If you're feeling overwhelmed or unsure about anything, don't be afraid to ask for help. Your employer and your colleagues are there to support you. They want you to succeed and be happy in your new role.
+7. Take it one step at a time: It's okay to take things one step at a time. You don't have to have all the answers right away. Take your time, learn as you go, and trust yourself to figure things out.
+
+Remember, it's normal to feel anxious and unsure about a new role, especially if it's a promotion. But with time and experience, you'll find your footing and excel in your new position. Congratulations again!
+
+Response 3:
+Congratulations on your promotion! It's understandable to feel anxious and unsure about your new role, especially if you feel like you don't deserve it. However, it's important to remember that you were chosen for this position for a reason. Your employer saw potential in you and believed you were the best fit for the job.
+
+It's natural to have self-doubt and feel like you're not worthy of the promotion, but try to focus on the positive aspects of your new role. You have the opportunity to learn and grow in this position, and you have the support of your colleagues and employer.
+
+It's also important to remember that everyone makes mistakes, and it's okay if you don't know everything right away. It's normal to feel like you're still learning and adjusting to your new role.
+
+If you're feeling overwhelmed and unsure of how to proceed, consider reaching out to your supervisor or a trusted colleague for guidance. They may be able to offer support and resources to help you feel more confident in your new role.
+
+Remember, you deserve this promotion and the opportunity to grow in your career. Try to focus on the positive aspects of your new role and the opportunities it presents, rather than dwelling on your self-doubt. Good luck!

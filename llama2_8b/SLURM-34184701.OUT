@@ -1,0 +1,44 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+2025-05-12 16:49:09.430886: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-12 16:49:09.444255: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1747068549.459726 1967407 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1747068549.464424 1967407 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1747068549.477879 1967407 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747068549.477899 1967407 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747068549.477902 1967407 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747068549.477904 1967407 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-05-12 16:49:09.481640: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:03,  1.98s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:04<00:02,  2.05s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.78s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.84s/it]
+
+=== Model Responses ===
+
+Response 1:
+Yes, I have noticed a few specific triggers that contribute to my fatigue. One of the main triggers is stress. When I have a lot on my plate and feel overwhelmed, I tend to feel more fatigued. Additionally, lack of sleep or poor quality sleep can also leave me feeling exhausted and drained. I've also noticed that if I don't take breaks and give myself time to rest, I can get burned out and feel fatigued more easily.
+
+Another pattern that I've noticed is that I tend to push myself too hard and don't always prioritize self-care. I'll often try to do too much in one day and don't leave enough time for rest and relaxation. This can lead to feeling overwhelmed and exhausted.
+
+I've also noticed that my fatigue can be exacerbated by certain activities or situations. For example, I tend to feel more fatigued after spending time in crowded or noisy places, or after engaging in activities that require a lot of physical or mental effort.
+
+Overall, I think it's important for me to be more mindful of my limits and prioritize self-care. This might involve setting boundaries, taking more breaks, and being more intentional about the activities I choose to engage in.
+
+Response 2:
+Yes, I have noticed a few specific triggers that contribute to my fatigue. For one, I have a hard time sleeping at night and often wake up feeling tired and groggy. I've also been experiencing some stress and anxiety lately, which can definitely drain my energy levels. Additionally, I've been trying to balance work and personal responsibilities, which can be overwhelming at times and leave me feeling exhausted.
+
+I've also noticed that when I don't take care of myself and prioritize self-care, my energy levels seem to suffer even more. This can be a challenge, as it can be hard to find the time and motivation to prioritize self-care when I'm already feeling so exhausted.
+
+I think if I could identify a few specific strategies for taking care of myself and managing my stress and anxiety, that would go a long way in helping me find the energy to engage with my loved ones. Do you have any suggestions?
+
+Response 3:
+Yes, I have noticed some specific triggers that contribute to my fatigue. For one, I have been experiencing a lot of stress at work lately, which has been making it hard for me to maintain my energy levels. Additionally, I have been struggling with some health issues, such as chronic pain and insomnia, which have also been contributing to my fatigue.
+
+I have also noticed that I tend to feel more fatigued during certain times of the day, such as in the afternoon or evening. This is when my energy levels tend to dip, and it can be hard for me to stay focused and engaged.
+
+Moreover, I have been noticing that certain activities, such as watching TV or scrolling through my phone, can leave me feeling more fatigued than others. This is because they can be mentally and emotionally draining, and they can make it hard for me to relax and recharge.
+
+Overall, it has been a bit of a challenge to identify the specific triggers and patterns that contribute to my fatigue. However, by paying closer attention to my body and mind, I have been able to gain some insight into what works for me and what doesn't.

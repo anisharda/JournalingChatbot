@@ -1,0 +1,140 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+2025-04-22 14:15:19.872703: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1745331322.915052  913991 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1745331323.528109  913991 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1745331331.800056  913991 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1745331331.800115  913991 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1745331331.800120  913991 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1745331331.800123  913991 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-04-22 14:15:32.610684: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Using the latest cached version of the module from /home/asharda_umass_edu/.cache/huggingface/modules/datasets_modules/datasets/empathetic_dialogues/09bbeed3882a67db98c73952fb3c1c9a85af83dc78f81454c2454382fd03f6cf (last modified on Sun Mar 30 00:16:52 2025) since it couldn't be found locally at empathetic_dialogues, or remotely on the Hugging Face Hub.
+STARTING the code
+step one completed, dataset loaded
+tokenize the model
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [05:12<10:24, 312.07s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [10:05<05:01, 301.20s/it]Loading checkpoint shards: 100%|██████████| 3/3 [13:29<00:00, 256.93s/it]Loading checkpoint shards: 100%|██████████| 3/3 [13:29<00:00, 269.97s/it]
+model loaded + tokenization = step 2 done
+prep model for fine tuning
+model prepped
+doing lora config
+get peft model about to run
+step 3 done
+start preprocessing step
+function created for step 4
+Map:   0%|          | 0/76673 [00:00<?, ? examples/s]Map:   1%|▏         | 1000/76673 [00:00<00:34, 2177.97 examples/s]Map:   3%|▎         | 2000/76673 [00:00<00:31, 2360.21 examples/s]Map:   4%|▍         | 3000/76673 [00:01<00:32, 2280.07 examples/s]Map:   5%|▌         | 4000/76673 [00:01<00:30, 2359.46 examples/s]Map:   7%|▋         | 5000/76673 [00:02<00:32, 2228.97 examples/s]Map:   8%|▊         | 6000/76673 [00:02<00:30, 2340.04 examples/s]Map:   9%|▉         | 7000/76673 [00:03<00:32, 2118.49 examples/s]Map:  10%|█         | 8000/76673 [00:03<00:33, 2057.05 examples/s]Map:  12%|█▏        | 9000/76673 [00:04<00:31, 2181.83 examples/s]Map:  13%|█▎        | 10000/76673 [00:04<00:29, 2228.63 examples/s]Map:  14%|█▍        | 11000/76673 [00:04<00:28, 2314.70 examples/s]Map:  16%|█▌        | 12000/76673 [00:05<00:27, 2372.47 examples/s]Map:  17%|█▋        | 13000/76673 [00:05<00:26, 2426.52 examples/s]Map:  18%|█▊        | 14000/76673 [00:06<00:25, 2459.93 examples/s]Map:  20%|█▉        | 15000/76673 [00:06<00:24, 2499.45 examples/s]Map:  21%|██        | 16000/76673 [00:07<00:27, 2219.45 examples/s]Map:  22%|██▏       | 17000/76673 [00:07<00:27, 2165.68 examples/s]Map:  23%|██▎       | 18000/76673 [00:07<00:25, 2260.48 examples/s]Map:  25%|██▍       | 19000/76673 [00:08<00:24, 2357.83 examples/s]Map:  26%|██▌       | 20000/76673 [00:09<00:28, 1960.22 examples/s]Map:  27%|██▋       | 21000/76673 [00:09<00:27, 2002.73 examples/s]Map:  29%|██▊       | 22000/76673 [00:09<00:26, 2030.48 examples/s]Map:  30%|██▉       | 23000/76673 [00:10<00:25, 2136.86 examples/s]Map:  31%|███▏      | 24000/76673 [00:10<00:24, 2143.78 examples/s]Map:  33%|███▎      | 25000/76673 [00:11<00:23, 2227.95 examples/s]Map:  34%|███▍      | 26000/76673 [00:11<00:22, 2303.23 examples/s]Map:  35%|███▌      | 27000/76673 [00:12<00:20, 2377.67 examples/s]Map:  37%|███▋      | 28000/76673 [00:12<00:21, 2313.04 examples/s]Map:  38%|███▊      | 29000/76673 [00:12<00:20, 2309.68 examples/s]Map:  39%|███▉      | 30000/76673 [00:13<00:19, 2373.57 examples/s]Map:  40%|████      | 31000/76673 [00:13<00:19, 2300.73 examples/s]Map:  42%|████▏     | 32000/76673 [00:14<00:18, 2357.59 examples/s]Map:  43%|████▎     | 33000/76673 [00:14<00:18, 2417.18 examples/s]Map:  44%|████▍     | 34000/76673 [00:15<00:18, 2335.96 examples/s]Map:  46%|████▌     | 35000/76673 [00:15<00:18, 2296.11 examples/s]Map:  47%|████▋     | 36000/76673 [00:15<00:17, 2377.71 examples/s]Map:  48%|████▊     | 37000/76673 [00:16<00:17, 2325.39 examples/s]Map:  50%|████▉     | 38000/76673 [00:16<00:17, 2199.02 examples/s]Map:  51%|█████     | 39000/76673 [00:17<00:16, 2275.02 examples/s]Map:  52%|█████▏    | 40000/76673 [00:17<00:15, 2354.51 examples/s]Map:  53%|█████▎    | 41000/76673 [00:18<00:14, 2409.61 examples/s]Map:  55%|█████▍    | 42000/76673 [00:18<00:17, 2005.07 examples/s]Map:  56%|█████▌    | 43000/76673 [00:19<00:15, 2131.54 examples/s]Map:  57%|█████▋    | 44000/76673 [00:19<00:14, 2234.71 examples/s]Map:  59%|█████▊    | 45000/76673 [00:19<00:14, 2211.25 examples/s]Map:  60%|█████▉    | 46000/76673 [00:20<00:13, 2201.63 examples/s]Map:  61%|██████▏   | 47000/76673 [00:20<00:13, 2208.63 examples/s]Map:  63%|██████▎   | 48000/76673 [00:21<00:12, 2306.55 examples/s]Map:  64%|██████▍   | 49000/76673 [00:21<00:11, 2393.23 examples/s]Map:  65%|██████▌   | 50000/76673 [00:22<00:11, 2242.12 examples/s]Map:  67%|██████▋   | 51000/76673 [00:22<00:11, 2258.70 examples/s]Map:  68%|██████▊   | 52000/76673 [00:23<00:10, 2315.64 examples/s]Map:  69%|██████▉   | 53000/76673 [00:23<00:10, 2365.08 examples/s]Map:  70%|███████   | 54000/76673 [00:23<00:09, 2289.00 examples/s]Map:  72%|███████▏  | 55000/76673 [00:24<00:10, 2133.06 examples/s]Map:  73%|███████▎  | 56000/76673 [00:24<00:09, 2253.23 examples/s]Map:  74%|███████▍  | 57000/76673 [00:25<00:09, 2107.79 examples/s]Map:  76%|███████▌  | 58000/76673 [00:25<00:08, 2196.70 examples/s]Map:  77%|███████▋  | 59000/76673 [00:26<00:07, 2274.58 examples/s]Map:  78%|███████▊  | 60000/76673 [00:26<00:07, 2354.48 examples/s]Map:  80%|███████▉  | 61000/76673 [00:27<00:07, 2059.32 examples/s]Map:  81%|████████  | 62000/76673 [00:27<00:06, 2161.21 examples/s]Map:  82%|████████▏ | 63000/76673 [00:28<00:07, 1818.50 examples/s]Map:  83%|████████▎ | 64000/76673 [00:28<00:07, 1806.25 examples/s]Map:  85%|████████▍ | 65000/76673 [00:29<00:06, 1850.38 examples/s]Map:  86%|████████▌ | 66000/76673 [00:29<00:05, 1923.61 examples/s]Map:  87%|████████▋ | 67000/76673 [00:30<00:04, 2066.92 examples/s]Map:  89%|████████▊ | 68000/76673 [00:30<00:04, 2071.79 examples/s]Map:  90%|████████▉ | 69000/76673 [00:31<00:03, 2134.81 examples/s]Map:  91%|█████████▏| 70000/76673 [00:31<00:02, 2239.93 examples/s]Map:  93%|█████████▎| 71000/76673 [00:32<00:02, 2310.81 examples/s]Map:  94%|█████████▍| 72000/76673 [00:32<00:02, 2080.12 examples/s]Map:  95%|█████████▌| 73000/76673 [00:33<00:01, 2088.99 examples/s]Map:  97%|█████████▋| 74000/76673 [00:33<00:01, 2184.92 examples/s]Map:  98%|█████████▊| 75000/76673 [00:33<00:00, 2275.43 examples/s]Map:  99%|█████████▉| 76000/76673 [00:34<00:00, 2361.84 examples/s]Map: 100%|██████████| 76673/76673 [00:34<00:00, 2354.89 examples/s]Map: 100%|██████████| 76673/76673 [00:40<00:00, 1896.13 examples/s]
+Map:   0%|          | 0/12030 [00:00<?, ? examples/s]Map:   8%|▊         | 1000/12030 [00:00<00:05, 2029.67 examples/s]Map:  17%|█▋        | 2000/12030 [00:00<00:04, 2258.10 examples/s]Map:  25%|██▍       | 3000/12030 [00:01<00:03, 2413.32 examples/s]Map:  33%|███▎      | 4000/12030 [00:01<00:03, 2468.51 examples/s]Map:  42%|████▏     | 5000/12030 [00:02<00:03, 2258.38 examples/s]Map:  50%|████▉     | 6000/12030 [00:02<00:02, 2200.74 examples/s]Map:  58%|█████▊    | 7000/12030 [00:03<00:02, 2299.08 examples/s]Map:  67%|██████▋   | 8000/12030 [00:03<00:02, 1864.55 examples/s]Map:  75%|███████▍  | 9000/12030 [00:04<00:01, 2016.37 examples/s]Map:  83%|████████▎ | 10000/12030 [00:04<00:00, 2070.95 examples/s]Map:  91%|█████████▏| 11000/12030 [00:05<00:00, 2094.30 examples/s]Map: 100%|█████████▉| 12000/12030 [00:05<00:00, 2198.92 examples/s]Map: 100%|██████████| 12030/12030 [00:06<00:00, 1761.65 examples/s]
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/training_args.py:1594: FutureWarning: `evaluation_strategy` is deprecated and will be removed in version 4.46 of 🤗 Transformers. Use `eval_strategy` instead
+  warnings.warn(
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/train_bot.py:301: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+tokenized dataset done
+tokenized dataset done
+dataset tokenized
+eval dataset tokenized
+step 6 done
+prep for step 7
+finish step 7
+trainer set up
+trainer thing set
+start the training
+  0%|          | 0/47930 [00:00<?, ?it/s]`use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py:745: UserWarning: torch.utils.checkpoint: the use_reentrant parameter should be passed explicitly. In version 2.5 we will raise an exception if use_reentrant is not passed. use_reentrant=False is recommended, but if you need to preserve the current default behavior, you can pass use_reentrant=True. Refer to docs for more details on the differences between the two variants.
+  return fn(*args, **kwargs)
+Traceback (most recent call last):
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/train_bot.py", line 325, in <module>
+    trainer.train()
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/trainer.py", line 2241, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/trainer.py", line 2548, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/trainer.py", line 3698, in training_step
+    loss = self.compute_loss(model, inputs, num_items_in_batch=num_items_in_batch)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/trainer.py", line 3759, in compute_loss
+    outputs = model(**inputs)
+              ^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/accelerate/utils/operations.py", line 819, in forward
+    return model_forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/accelerate/utils/operations.py", line 807, in __call__
+    return convert_to_fp32(self.model_forward(*args, **kwargs))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/amp/autocast_mode.py", line 44, in decorate_autocast
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/peft/peft_model.py", line 1756, in forward
+    return self.base_model(
+           ^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/peft/tuners/tuners_utils.py", line 193, in forward
+    return self.model.forward(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/models/llama/modeling_llama.py", line 842, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/models/llama/modeling_llama.py", line 582, in forward
+    layer_outputs = self._gradient_checkpointing_func(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/_compile.py", line 32, in inner
+    return disable_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 745, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/utils/checkpoint.py", line 489, in checkpoint
+    return CheckpointFunction.apply(function, preserve, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/autograd/function.py", line 575, in apply
+    return super().apply(*args, **kwargs)  # type: ignore[misc]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/utils/checkpoint.py", line 264, in forward
+    outputs = run_function(*args)
+              ^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/models/llama/modeling_llama.py", line 352, in forward
+    hidden_states = self.mlp(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/models/llama/modeling_llama.py", line 190, in forward
+    down_proj = self.down_proj(self.act_fn(self.gate_proj(x)) * self.up_proj(x))
+                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 432.00 MiB. GPU 0 has a total capacity of 11.91 GiB of which 224.19 MiB is free. Including non-PyTorch memory, this process has 11.69 GiB memory in use. Of the allocated memory 10.48 GiB is allocated by PyTorch, and 1.10 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+  0%|          | 0/47930 [00:21<?, ?it/s]

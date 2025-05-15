@@ -1,0 +1,66 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+2025-05-14 21:40:50.637486: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-14 21:40:50.650436: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1747258850.666229 2312317 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1747258850.671121 2312317 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1747258850.684156 2312317 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747258850.684180 2312317 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747258850.684183 2312317 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747258850.684185 2312317 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-05-14 21:40:50.688145: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX512_FP16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:03,  1.82s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:03<00:01,  1.88s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.61s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.68s/it]
+
+=== Model Responses ===
+
+Response 1:
+Sorry to hear that you're feeling alone even when you're with others. It's understandable to feel that way sometimes, and it's important to remember that it's okay to feel this way. It's important to remember that everyone feels this way sometimes, and it's nothing to be ashamed of.
+
+Here are some things that might help you feel seen and heard:
+
+1. Talk to someone you trust: Sometimes talking to someone you trust about how you're feeling can help you feel seen and heard. This could be a friend, family member, or a mental health professional.
+2. Join a support group: Support groups can be a great way to connect with others who understand what you're going through. You can share your experiences and listen to others in a safe and supportive environment.
+3. Try journaling: Journaling can be a great way to process your emotions and feel heard. It can help you to understand your thoughts and feelings better and can be a good way to express yourself when you're feeling alone.
+4. Connect with others online: There are many online communities and forums where you can connect with others who understand what you're going through. You can share your experiences and support others in a safe and supportive environment.
+5. Practice self-care: Taking care of yourself can help you feel more connected to yourself and others. This can include things like exercise, meditation, and spending time in nature.
+6. Try reaching out to others: Sometimes reaching out to others can help you feel more connected. This could be as simple as calling a friend or family member or reaching out to a support group or online community.
+
+Remember that it's okay to feel alone sometimes, and it's important to be kind to yourself as you work through these feelings. It's also important to remember that you're not alone and that there are resources available to help you feel seen and heard.
+
+Response 2:
+Sorry to hear that you're feeling alone. It sounds like you're feeling like you don't have anyone who truly understands you or sees you for who you are. It's important to remember that you're not alone in this feeling. Many people experience similar feelings of isolation and disconnection from others.
+
+It's possible that you may be looking for a deeper level of connection with others that you haven't found yet. It could also be that you're feeling like you're not being seen or understood in the way that you want to be. Whatever the reason, it's important to know that you don't have to go through this alone.
+
+Here are a few things that might help you feel less alone:
+
+1. Reach out to a trusted friend or family member. Talk to someone you trust about how you're feeling. They may be able to offer you a different perspective or just be a listening ear.
+2. Consider talking to a therapist. A therapist can help you explore why you're feeling alone and work with you to find ways to connect with others more deeply.
+3. Join a group or club that interests you. This could be anything from a book club to a hiking group. Meeting new people who share your interests can help you feel more connected.
+4. Volunteer. Helping others can give you a sense of purpose and can help you meet like-minded people.
+5. Take a class or workshop. Learning something new can be a great way to meet others who share your interests.
+6. Try to focus on the present moment. Sometimes when we're feeling alone, it's easy to get caught up in our thoughts and feelings of the past or future. Try to bring your attention to the present moment and see what's around you.
+7. Practice self-care. Take care of yourself by eating well, exercising, and getting enough sleep. Taking care of your physical and emotional needs can help you feel more grounded and connected.
+
+Remember, it's okay to feel alone sometimes. It's a normal part of life. But if you're feeling alone for a long time or it's impacting your daily life, it may be worth reaching out for support.
+
+Response 3:
+Sorry to hear that you're feeling alone, even when you're with others. It can be a difficult and isolating experience. It's important to remember that it's common for people to feel this way at times, and there are things you can do to help you feel more seen and connected. Here are some suggestions:
+
+1. Reach out to a trusted friend or family member: Talk to someone you trust about how you're feeling. Sometimes just sharing your feelings with someone who cares about you can help you feel more seen and understood.
+2. Join a club or group that interests you: Connecting with others who share your interests can help you feel more seen and like you're part of a community.
+3. Try online communities: There are many online communities and forums where you can connect with others who share your interests or experiences.
+4. Practice self-care: Taking care of yourself, such as getting enough sleep, eating well, and exercising, can help improve your mood and overall well-being.
+5. Seek professional help: If you're feeling overwhelmed or if these feelings are persistent, consider talking to a mental health professional. They can help you explore the underlying causes of your feelings and provide you with tools and resources to help you feel more seen and connected.
+6. Try journaling: Writing down your thoughts and feelings can help you process them and gain a better understanding of yourself.
+7. Try mindfulness: Mindfulness is the practice of being present in the moment and paying attention to your thoughts and feelings without judgment. It can help you feel more connected to yourself and others.
+8. Seek out new experiences: Trying new things and stepping out of your comfort zone can help you meet new people and have new experiences.
+9. Practice gratitude: Focusing on the things you're grateful for can help shift your perspective and make you feel more seen and appreciated.
+10. Be patient: It can take time to build meaningful connections with others, so be patient and keep putting yourself out there.
+
+Remember, it's okay to feel alone sometimes, and it's important to be kind to yourself as you navigate these feelings.

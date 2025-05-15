@@ -1,0 +1,53 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+2025-03-24 13:52:36.499428: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1742824356.525068 3360125 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1742824356.532997 3360125 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1742824356.556612 3360125 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1742824356.556659 3360125 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1742824356.556664 3360125 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1742824356.556667 3360125 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-03-24 13:52:36.562331: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:10<00:21, 10.56s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:17<00:08,  8.59s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:20<00:00,  6.08s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:20<00:00,  6.96s/it]
+Starting the function!!
+Map:   0%|          | 0/12030 [00:00<?, ? examples/s]Map:   8%|▊         | 1000/12030 [00:00<00:03, 2821.25 examples/s]Map:  17%|█▋        | 2000/12030 [00:00<00:03, 3091.95 examples/s]Map:  25%|██▍       | 3000/12030 [00:00<00:02, 3049.74 examples/s]Map:  33%|███▎      | 4000/12030 [00:01<00:02, 2812.66 examples/s]Map:  42%|████▏     | 5000/12030 [00:01<00:02, 2452.96 examples/s]Map:  50%|████▉     | 6000/12030 [00:02<00:02, 2421.18 examples/s]Map:  58%|█████▊    | 7000/12030 [00:02<00:02, 2436.35 examples/s]Map:  67%|██████▋   | 8000/12030 [00:03<00:01, 2424.21 examples/s]Map:  75%|███████▍  | 9000/12030 [00:03<00:01, 2388.58 examples/s]Map:  83%|████████▎ | 10000/12030 [00:03<00:00, 2364.97 examples/s]Map:  91%|█████████▏| 11000/12030 [00:04<00:00, 2263.56 examples/s]Map: 100%|█████████▉| 12000/12030 [00:04<00:00, 2394.64 examples/s]Map: 100%|██████████| 12030/12030 [00:05<00:00, 2226.79 examples/s]
+/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/train_bot.py:56: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+GOT THROUGH TOKENIZIED DATA SETS
+Traceback (most recent call last):
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/LLM_scripts/llama2_7b/train_bot.py", line 56, in <module>
+    trainer = Trainer(
+              ^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/trainer.py", line 612, in __init__
+    self._move_model_to_device(model, args.device)
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/trainer.py", line 899, in _move_model_to_device
+    model = model.to(device)
+            ^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/transformers/modeling_utils.py", line 3162, in to
+    return super().to(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1343, in to
+    return self._apply(convert)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 903, in _apply
+    module._apply(fn)
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 903, in _apply
+    module._apply(fn)
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 903, in _apply
+    module._apply(fn)
+  [Previous line repeated 2 more times]
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 930, in _apply
+    param_applied = fn(param)
+                    ^^^^^^^^^
+  File "/work/pi_jaimedavila_umass_edu/asharda_umass_edu/test_LLM/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1329, in convert
+    return t.to(
+           ^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 270.00 MiB. GPU 0 has a total capacity of 11.91 GiB of which 178.69 MiB is free. Including non-PyTorch memory, this process has 11.74 GiB memory in use. Of the allocated memory 11.64 GiB is allocated by PyTorch, and 1.65 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

@@ -1,0 +1,76 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+2025-05-12 17:24:14.417377: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-12 17:24:15.403088: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:467] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1747070655.672593  714918 cuda_dnn.cc:8579] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1747070655.792642  714918 cuda_blas.cc:1407] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+W0000 00:00:1747070656.488592  714918 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747070656.488619  714918 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747070656.488622  714918 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+W0000 00:00:1747070656.488624  714918 computation_placer.cc:177] computation placer already registered. Please check linkage and avoid linking the same target more than once.
+2025-05-12 17:24:16.572230: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:01<00:03,  1.97s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:03<00:01,  1.88s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.62s/it]Loading checkpoint shards: 100%|██████████| 3/3 [00:05<00:00,  1.70s/it]
+
+=== Model Responses ===
+
+Response 1:
+Sorry to hear that you're struggling with procrastination and feeling like a failure. It's important to remember that you are not alone in this experience, and there are many reasons why people procrastinate. Here are a few possible reasons why you might be procrastinating, and some strategies that might help you overcome it:
+
+1. Fear of failure: You might be putting things off because you're afraid of not doing them perfectly or making mistakes. It's important to remember that it's okay to make mistakes and that you can learn from them.
+2. Perfectionism: If you have high standards for yourself, you might be putting things off because you feel like they can't be done perfectly. It's important to remember that nothing is ever perfect, and that it's okay to do things "good enough."
+3. Lack of motivation: You might be feeling unmotivated or uninterested in the tasks you need to complete. This could be due to a lack of intrinsic motivation (i.e., you're not doing the tasks because you don't find them enjoyable or fulfilling) or a lack of extrinsic motivation (i.e., you're not doing the tasks because you're not getting any external rewards or recognition for them).
+4. Distractions: You might be putting things off because you're easily distracted by other tasks or activities that seem more enjoyable or urgent. It's important to learn how to prioritize your tasks and focus on the most important ones first.
+5. Overwhelm: You might be feeling overwhelmed by the tasks you need to complete, and you might be putting them off because you don't know where to start or how to break them down into manageable pieces. It's important to break your tasks down into smaller, more manageable pieces, and to focus on one task at a time.
+
+Here are some strategies that might help you overcome procrastination and feel more productive:
+
+1. Break your tasks down into smaller pieces: Instead of looking at a big task and feeling overwhelmed, try breaking it down into smaller pieces. This can help you feel more in control and make it easier to focus on one task at a time.
+2. Set specific goals and deadlines: Having specific goals and deadlines can help you stay motivated and focused. Write down your goals and deadlines, and make sure they are realistic and achievable.
+3. Prioritize your tasks: Make a list of all the tasks you need to complete, and prioritize them based on their importance and urgency. This can help you focus on the most important tasks first and avoid getting sidetracked by less important tasks.
+4. Use a timer: Set a timer for a specific amount of time (e.g., 25 minutes), and work on your task without any distractions during that time. Take a break when the timer goes off, and repeat the process. This is called the Pomodoro technique, and it can help you stay focused and avoid burnout.
+5. Create a schedule: Make a schedule for your day or week, and stick to it. This can help you stay organized and avoid procrastination.
+6. Get accountability: Find someone who will hold you accountable for your goals and tasks. This could be a friend, family member, or mentor. Having someone to report to can help you stay motivated and avoid procrastination.
+7. Reward yourself: Set small rewards for yourself when you complete tasks or reach certain milestones. This can help you stay motivated and make the task more enjoyable.
+
+Remember that overcoming procrastination takes time and effort, and it's okay to make mistakes along the way. Be patient with yourself, and keep trying. Good luck!
+
+Response 2:
+Sorry to hear that you've been feeling like a failure due to procrastination. It's a common struggle that many people face. It's important to remember that procrastination is a habit, and it's not a reflection of your worth or abilities. Here are some reasons why people procrastinate and some strategies that might help you overcome it:
+
+1. Fear of failure: You might be putting off tasks because you're afraid of not doing them perfectly or making mistakes. It's important to remember that it's okay to make mistakes and that you can learn from them.
+2. Lack of motivation: Sometimes, it can be hard to find motivation to start a task, especially if it's not something you enjoy. But remember that the more you put off a task, the more work you'll have to do later.
+3. Perfectionism: If you're a perfectionist, you might be putting off tasks because you want them to be perfect. But remember that perfect is not always possible, and it's better to get something done than to wait for perfection.
+4. Distractions: With so many distractions in our lives, such as social media and TV, it's easy to get sidetracked and lose focus. Try to eliminate distractions and create a quiet, dedicated space for working.
+5. Overwhelm: If you have a lot of tasks to do, it can feel overwhelming. Break down large tasks into smaller, more manageable ones, and focus on one task at a time.
+
+Here are some strategies that might help you overcome procrastination:
+
+1. Set clear goals: Setting specific, achievable goals can help you stay focused and motivated. Write down your goals and make them visible, so you can see them every day.
+2. Use a timer: Set a timer for a specific amount of time, say 25 minutes, and work on your task without any distractions during that time. Take a break when the timer goes off, and come back to the task when you feel refreshed.
+3. Break tasks into smaller steps: Divide large tasks into smaller, more manageable steps. This can help make the task feel less overwhelming and more achievable.
+4. Create a schedule: Plan out your day and set specific times for working on your tasks. Stick to your schedule as much as possible, but be flexible when needed.
+5. Get accountability: Share your goals and schedule with a friend or accountability partner. This can help you stay motivated and on track.
+6. Reward yourself: Set small rewards for yourself when you complete tasks. This can help motivate you to stay on track and make the task feel more enjoyable.
+7. Practice self-compassion: Remember that it's okay to make mistakes and have setbacks. Treat yourself with kindness and understanding when you encounter obstacles, and keep moving forward.
+
+Remember, overcoming procrastination takes time and effort, but it's worth it. Be patient with yourself, and keep trying different strategies until you find what works best for you.
+
+Response 3:
+Sorry to hear that you're feeling like a failure because of procrastination. Procrastination can be a difficult habit to break, but it's important to remember that it's a common struggle and that there are many resources available to help you overcome it. Here are some suggestions that might help:
+
+1. Identify your reasons for procrastinating: Understanding why you're procrastinating can help you address the root cause of the problem. Are you afraid of failure? Do you feel overwhelmed by the task? Do you lack motivation? Once you understand your reasons, you can start working on solutions.
+2. Break tasks into smaller steps: Procrastination often happens when a task seems too big or overwhelming. Breaking it down into smaller steps can make it feel more manageable and less daunting.
+3. Set specific goals and deadlines: Having a clear goal and deadline can help you stay focused and motivated. Write down your goals and deadlines, and make sure they're specific, measurable, achievable, relevant, and time-bound (SMART).
+4. Create a schedule: Plan out your day or week, and schedule time for your tasks. Set aside specific times for work, study, and leisure activities. Having a schedule can help you stay organized and avoid procrastination.
+5. Use the Pomodoro Technique: This technique involves working in focused 25-minute increments, followed by a 5-minute break. After four cycles, take a longer break of 15-30 minutes. This technique can help you stay focused and avoid burnout.
+6. Remove distractions: Identify the things that distract you the most, such as social media, email, or your phone, and remove them while you work. Use tools like website blockers or apps that help you stay focused.
+7. Seek accountability: Share your goals and progress with a friend or accountability partner. This can help you stay motivated and on track.
+8. Practice self-compassion: Remember that everyone procrastinates sometimes, and it's okay to make mistakes. Be kind to yourself, and don't beat yourself up over your procrastination. Instead, focus on what you can do to overcome it.
+9. Seek help if needed: If you're struggling with procrastination despite trying these strategies, consider seeking help from a therapist or counselor. They can help you identify the underlying causes of your procrastination and develop a plan to overcome it.
+
+Remember that overcoming procrastination takes time and effort, but it's worth it. Don't give up, and keep working towards your goals. You got this!
