@@ -1,0 +1,6 @@
+Loading gmp version 6.2.1
+Loading mpfr version 3.1.6
+Loading mpc version 1.1.0
+Loading zlib-ng version 2.1.6
+Loading gcc version 9.4.0
+/var/spool/slurm/slurmd/job29404060/slurm_script: line 10: ../test_LLM/bin/activate: No such file or directory
